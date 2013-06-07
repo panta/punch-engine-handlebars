@@ -8,13 +8,16 @@ If present, [Swag](https://github.com/elving/swag) is used to provide useful Han
 
 * Install the package
 	
-		npm install punch-engine-handlebars
+		npm install punch-engine-handlebars-swag
+
+Please note that this is a temporary package, published as a stop-gap solution while waiting for the
+Swag support to be merged upstream (see the [pull request](https://github.com/laktek/punch-engine-handlebars/pull/2)).
 
 * Open your Punch project's configurations (`config.json`) and add the following:
 
 		"plugins": {
 			
-			"template_engine": "punch-engine-handlebars" 
+			"template_engine": "punch-engine-handlebars-swag"
 
 		}
 

@@ -14,7 +14,7 @@
   "licenses": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/laktek/punch-engine-handlebars.git"
+    "url": "https://github.com/panta/punch-engine-handlebars.git"
   },
   "main": "./lib/handlebars_engine.js",
   "dependencies": {
